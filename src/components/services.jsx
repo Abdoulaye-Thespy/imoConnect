@@ -5,10 +5,11 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Nos Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Nous sommes une agence spécialisée dans la location, la vente, l'entretirn et des conseils immobiliers.
+          Nous mettons à votre disposition une gamme complète de services pour vous accompagner dans
+           toutes vos transactions immobilières.
           </p>
         </div>
         <div className="row">

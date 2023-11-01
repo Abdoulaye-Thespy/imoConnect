@@ -1,4 +1,6 @@
 import React from "react";
+import { Image } from "./image";
+
 
 export const Navigation = (props) => {
   return (
@@ -18,7 +20,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+          <img src="img/logo.png" className="img-logo" alt="ImoConnect" width={80}/>{" "}
+          {/* ImoConnect */}
           </a>{" "}
         </div>
 
@@ -28,13 +31,13 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
+              <a href="#mission" className="page-scroll">
+                Mission
               </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                About
+                A Propos
               </a>
             </li>
             <li>
@@ -49,12 +52,12 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+                Témoignages
               </a>
             </li>
             <li>
               <a href="#team" className="page-scroll">
-                Team
+                équipe
               </a>
             </li>
             <li>

@@ -5,10 +5,10 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
+          <h2>Notre équipe</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Nous sommes une équipe passionnée et expérimentée, dédiée à vous offrir des services immobiliers de qualité supérieure. 
+          Que vous cherchiez à explorer, louer ou aménager une propriété, nous sommes là pour vous accompagner à chaque étape du processus.
           </p>
         </div>
         <div id="row">

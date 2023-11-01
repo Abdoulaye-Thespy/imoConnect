@@ -8,8 +8,8 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Bienvenue sur la page de notre galerie immobilière, où vous découvrirez 
+          une sélection exceptionnelle de propriétés disponibles à l'exploration ou à la location.
           </p>
         </div>
         <div className="row">

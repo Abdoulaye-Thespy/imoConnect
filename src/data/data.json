@@ -1,184 +1,154 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "ImoConnect",
+    "paragraph": "Une agence d'immoblier par excellence !!!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Notre mission est de fournir aux utilisateurs un accès facile et pratique à des informations immobilières fiables et pertinentes. Nous nous efforçons de simplifier le processus de recherche et de transaction immobilière en offrant une plateforme conviviale et intuitive. Notre objectif est d'aider les utilisateurs à trouver leur maison idéale et à prendre des décisions éclairées en matière d'immobilier..",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Nos services :",
+      "Location de biens immobiliers ",
+      "Gestion locative",
+      "Entretien et conseils"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Nos valeurs : ",
+      "Professionnalisme",
+      "Transparence",
+      "Engagement"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Etape des offres",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Etape 01",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Etape 02",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Etape 03",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Etape 04",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Démarche à suivre",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Offre",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Modèle",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Contact",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-user",
+      "name": "Location de biens immobiliers",
+      "text": "Recherche de biens correspondants à vos critères de location ; Organisation des visites et conseils lors de la sélection des biens ; Vérification des dossiers des candidats locataires ; Rédaction du contrat de location et état des lieux ; Suivi administratif pendant toute la durée de la location."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cog",
+      "name": "Gestion locative",
+      "text": "Recherche de locataires fiables et solvables ; Encaissement des loyers et suivi des paiements ; Gestion des réparations et entretien du bien  ; Suivi des obligations légales et réglementaires ; Rapports réguliers sur l'état de votre bien et les revenus générés."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Autres",
+      "text": "Chez ImoConnect, nous mettons tout en œuvre pour vous offrir un service de qualité et vous accompagner tout au long de vos projets immobiliers. N'hésitez pas à nous contacter pour plus d'informations ou pour prendre rendez-vous."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Un service pas comme les autres. Je suis vraiment satisfait par le studio dont vous m'avez trouvé.\"",
+      "name": "Mahamat Iba"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Je recommande vivement les services de ImoConnect. Les meilleurs en terme de satisfaction des services immobiliers.\"",
+      "name": "Aziz Njamkah"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
+      "text": "\"J'apprécie également la diversité des propriétés que vous proposez, couvrant un large éventail de styles architecturaux, de localisations et de gammes de prix.\"",
+      "name": "Zédane Zédane"
+    } 
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Njigouh Abdoulaye Razak",
+      "job": "DevOps & CTO-Fondateur FreelanceConnect"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Abdel Karim Mounkambou",
+      "job": "Software Engineer Fullstack"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Aziz Njamkah",
+      "job": "Ingénieur Génie Civil"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Alhadji Ali Garba",
+      "job": "Software Engineer Front-End" 
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
+    "address": "Cameroun, Douala, Yaoundé ",
+    "phone": "+237 6 20 22 42 88",
     "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "twitter": "https://chat.whatsapp.com/FXIFhEBVqprAqE6emRZAQt",
+    "facebook": "https://www.facebook.com/profile.php?id=61551863216605",
+    "youtube": "instagram.com"
   },
-  "Features": [
+  "Mission": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-user",
+      "title": "Gestion de biens immobiliers ",
+      "text": "Gérer les biens immobiliers pour le compte de propriétaires. C'est à dire collecte des loyers, la gestion des contrats de location, la coordination des réparations et de l'entretien, la gestion des relations avec les locataires et la tenue des dossiers financiers."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Promotion immobilière",
+      "text": "Nous promouvons le développement et de la promotion de projets immobiliers. A savoir l'acquisition de terrains, la planification et la conception de projets, l'obtention des autorisations nécessaires, la coordination de la construction et la commercialisation des biens immobiliers."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Location et vente",
+      "text": "Nous faisons dsns la vente ou de la location de biens immobiliers tels que des maisons, des appartements, des terrains, des locaux commerciaux, etc. Cela implique de trouver des clients potentiels, de promouvoir les biens immobiliers, de mener des visites, de négocier les conditions de vente ou de location, et de finaliser les transactions."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-edit",
+      "title": "Conseil en investissement",
+      "text": "Nous fournissent des conseils et des analyses pour les investissements immobiliers. Nous aidont les clients à identifier les opportunités d'investissement, à évaluer les risques et les rendements potentiels, à effectuer des analyses de marché, et à prendre des décisions éclairées concernant l'investissement dans des biens immobiliers."
     }
   ]
 }

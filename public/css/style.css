@@ -244,11 +244,11 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Features Section */
-#features {
+/* Mission Section */
+#mission {
   background: #f6f6f6;
 }
-#features i.fa {
+#mission i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -309,9 +309,9 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  padding: 30px 0;
+  background: linear-gradient(to left, #e7b241b4 0%, #091018ab 50%);
+  color: #5c7ca183;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
@@ -460,7 +460,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to left,#4d4823e1 75%, #0c0b08b4  100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -604,3 +604,12 @@ label {
     margin: 50px 0;
   }
 }
+
+
+
+/* Logo Section*/
+/* img #img-logo {
+  height: 5px;
+  width: 5px;
+
+} */
