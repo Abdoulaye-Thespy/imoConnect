@@ -1,6 +1,4 @@
 import React from "react";
-import { Image } from "./image";
-
 
 export const Navigation = (props) => {
   return (
@@ -36,7 +34,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="#about" className="page-scroll propos">
                 A Propos
               </a>
             </li>
@@ -47,7 +45,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                Procedures
               </a>
             </li>
             <li>

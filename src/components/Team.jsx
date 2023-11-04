@@ -11,7 +11,7 @@ export const Team = (props) => {
           Que vous cherchiez à explorer, louer ou aménager une propriété, nous sommes là pour vous accompagner à chaque étape du processus.
           </p>
         </div>
-        <div id="row">
+        <div id="row" className="row-row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">

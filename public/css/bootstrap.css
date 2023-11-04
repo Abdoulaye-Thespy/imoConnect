@@ -1612,6 +1612,13 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
@@ -1623,10 +1630,15 @@ pre code {
 }
 .col-xs-12 {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .col-xs-11 {
   width: 91.66666667%;
 }
+
 .col-xs-10 {
   width: 83.33333333%;
 }
@@ -4357,7 +4369,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin: 0;
   }
   .navbar-nav > li {
-    float: left;
+    position: relative;
+    left: 2rem;
   }
   .navbar-nav > li > a {
     padding-top: 15px;
@@ -4481,13 +4494,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 @media (min-width: 768px) {
-  .navbar-left {
-    float: left !important;
-  }
+  
   .navbar-right {
-    float: right !important;
-    margin-right: -15px;
+    display: flex;
+    align-items: center;
+    padding-top: 1.7rem;
   }
+
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
@@ -6755,3 +6768,88 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+@media (min-width: 1024px) {
+  .navbar-nav > li {
+    position: relative;
+    left: 15rem;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    padding-top: 1.7rem;
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    padding: 1.7rem 2rem;
+    width: 85%;
+    margin: 0.5rem 2rem;
+}
+
+#menu.navbar-default .navbar-nav > li > a {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px 4px;
+  border-radius: 0;
+  width: 100%;
+  margin: 0.5rem 2rem;
+  display: flex;
+}
+
+#about h2::after {
+  position: absolute;
+  bottom: -0.5rem;
+  left: 19rem;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.row-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+}
+
+@media (min-width: 1280px) {
+  .navbar-nav > li {
+    position: relative;
+    left: 35rem;
+  }
+
+  #about h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 7rem;
+    bottom: -0.5rem;
+    left: 25rem;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.row-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+}

@@ -99,28 +99,29 @@
       "name": "Zédane Zédane"
     } 
   ],
+  
   "Team": [
     {
       "img": "img/team/01.jpg",
       "name": "Njigouh A. Razak",
       "job": "Cloud & DevOps Engineer"
     },
+
     {
-      "img": "img/team/02.jpg",
-      "name": "Abdel Karim Mounkambou",
       "job": "Software Engineer Fullstack"
     },
+
     {
-      "img": "img/team/03.jpg",
-      "name": "Aziz Njamkah",
+
       "job": "Ingénieur Génie Civil"
     },
+
     {
-      "img": "img/team/04.jpg",
-      "name": "Alhadji Ali Garba",
+      
       "job": "Software Engineer Front-End" 
     }
   ],
+
   "Contact": {
     "address": "Cameroun, Douala, Yaoundé ",
     "phone": "+237 6 20 22 42 88",

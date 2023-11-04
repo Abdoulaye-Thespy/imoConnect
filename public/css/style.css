@@ -63,8 +63,7 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
+  width: 60%;
 }
 hr {
   height: 2px;
@@ -84,7 +83,7 @@ hr {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  width: 90%;
+  width: 100%;
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -101,7 +100,7 @@ hr {
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 9px 3px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -270,7 +269,9 @@ header .intro-text {
 }
 #about h3 {
   font-size: 22px;
-  margin: 0 0 20px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #about h2 {
   position: relative;
@@ -291,7 +292,6 @@ header .intro-text {
 }
 #about .about-text li {
   margin-bottom: 6px;
-  margin-left: 6px;
   list-style: none;
   padding: 0;
 }
@@ -370,6 +370,8 @@ header .intro-text {
   overflow: hidden;
   position: relative;
   margin: 0;
+  border: 2px solid rgba(140, 69, 18, 0.4);
+  border-radius: 2rem;
 }
 .hover-bg .hover-text {
   position: absolute;
@@ -466,7 +468,7 @@ header .intro-text {
   scroll-behavior: smooth;
 }
 
-#row {
+.row-row {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -499,6 +501,7 @@ header .intro-text {
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  font-size: 3.5rem;
 }
 #contact .section-title h2::after {
   position: absolute;
@@ -507,7 +510,6 @@ header .intro-text {
   height: 4px;
   width: 60px;
   bottom: 0;
-  left: 30px;
 }
 #contact h3 {
   color: #fff;
@@ -628,13 +630,32 @@ label {
   #about img {
     margin: 50px 0;
   }
+
+  .propos {
+    display: flex; 
+  }
+
+  #menu.navbar-default .navbar-nav > li > a {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    color: #555;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 8px 4px;
+    border-radius: 0;
+    margin: 9px 3px;
+    width: 100%;
+    margin-right: 2rem;
+    display: flex;
+  }
 }
 
-
-
-/* Logo Section*/
-/* img #img-logo {
-  height: 5px;
-  width: 5px;
-
-} */
+@media (min-width: 1024px) {
+  .row-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+}
