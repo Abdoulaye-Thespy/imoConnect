@@ -658,4 +658,11 @@ label {
     justify-content: center;
     width: 90%;
   }
+
+}
+
+@media screen and (max-width: 540px) {
+  #menu.navbar-default {
+    width: 88%;
+}
 }

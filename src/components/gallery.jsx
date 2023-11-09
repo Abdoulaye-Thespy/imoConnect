@@ -1,7 +1,22 @@
 import { Image } from "./image";
-import React from "react";
+import React, { useState } from "react";
+
 
 export const Gallery = (props) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const previousImage = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? props.data.length - 1 : prevIndex - 1
+    );
+  };
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === props.data.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
@@ -14,20 +29,28 @@ export const Gallery = (props) => {
         </div>
         <div className="row">
           <div className="portfolio-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
+            <div className="arrow" onClick={previousImage}>
+            <img src="img/left-arrows.png" className="arrow" alt="left-arrow" />
+
+            </div>
+            {props.data ? (
+              <div
+                key={`${props.data[currentIndex].title}-${currentIndex}`}
+                className="col-sm-6 col-md-4 col-lg-4"
+                >
+                  <Image
+                  title={props.data[currentIndex].title}
+                  largeImage={props.data[currentIndex].largeImage}
+                  smallImage={props.data[currentIndex].smallImage}
+                  // &gt;
+                  />
                   </div>
-                ))
-              : "Loading..."}
+            ) : (
+              "loading..."
+            )}
+            <div className="arrow" onClick={nextImage}>
+            <img src="img/right-arrows.png" className="arrow" alt="right-arrow" />
+            </div>
           </div>
         </div>
       </div>
